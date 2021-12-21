@@ -81,18 +81,14 @@ section#profile .profile_main .p_right dl span.intro {color: #999;}
 section h2 {font-size: 17px; margin: 0 auto; border-bottom: 1px solid gray; width: 90px; padding-bottom: 20px; font-family: "SpoqaR"; text-align: center;}
 section h3 {font-size: 35px; text-align: center; margin-top: 30px; margin-bottom: 30px; letter-spacing: 2px; font-weight: 100;}
 
-
 /* 소개 - skill */
 section#skill {width: 100%; padding: 0 0 60px 0;}
-section#skill .skill_main {width: 1400px;
-overflow: hidden; margin: 0 auto; padding: 60px 0;
-}
+section#skill .skill_main {width: 1400px; overflow: hidden; margin: 0 auto; padding: 60px 0;}
 section#skill .skill_main .box {width: 220px; height: 280px; position: relative; margin-top: 100px; margin-left: 50px;}
 section#skill .skill_main .box>i {color: #fff; background: #f2b111; border-radius: 50%;
 width: 33px; height: 33px; margin-bottom: 10px; margin-left: 82px; padding: 10px;}
 section#skill .skill_main .box dl dt {font-size: 20px; margin-bottom: 30px; padding-top: 15px; text-align: center; width: 100%; font-weight: bold;}
 section#skill .skill_main .box dl dd {position: relative; font-size: 14px; line-height: 1.7; text-align: left; letter-spacing: -1px; padding-top: 0; padding-left: 0;}
-
 section#skill .skill_main .box.about dl dd {text-align: center;}
 section#skill .skill_main .box.contacts dl dd {padding-left: 60px;}
 section#skill .skill_main .box.licences dl dd {padding-left: 60px;}
@@ -101,9 +97,7 @@ section#skill .skill_main .box.skills dl dd {padding-left: 85px;}
 
 /* icon */
 section#skill .skill_main .box.contacts dl dd i {position: absolute; left: 30px; color: #a7a7a7; font-size: 16px; padding-top: 4px;}
-
-section#portfolio {min-width: 1400px; width: 100%;
-position: relative; background: url("../images/pf/pf-bg.jpg"); background-size: cover; padding-top: 70px;}
+section#portfolio {min-width: 1400px; width: 100%; position: relative; background: url("../images/pf/pf-bg.jpg"); background-size: cover; padding-top: 70px;}
 section#portfolio .portfolio_main{width: 1400px; margin: 0 auto; padding: 30px 0;}
 section#portfolio .portfolio_main dl dt{width: 700px; height: 620px;}
 /* pf_01 */
@@ -171,9 +165,8 @@ section#portfolio .portfolio_main dl dt{width: 700px; height: 620px;}
 #wrap section#portfolio .portfolio_main dl:nth-child(7) dd p.site_btn a:hover{border: 1px solid #f2b111; color: #f2b111;}
 
 /* section etc - 기타디자인 */
-section#etc{width: 100%;min-width: 1400px; overflow: hidden; background: #f9f9f9; padding: 100px 0;}
-section#etc .etc_main{width: 1400px; min-width: 1400px;height: 400px; margin: 0 auto; overflow: hidden;
-     padding-top: 60px;}
+section#etc{width: 100%; min-width: 1400px; overflow: hidden; background: #f9f9f9; padding: 100px 0;}
+section#etc .etc_main{width: 1400px; min-width: 1400px;height: 400px; margin: 0 auto; overflow: hidden; padding-top: 60px;}
 section#etc .etc_main dl{width: 19.2%; margin-right: 1%; position: relative; cursor: pointer;}
 section#etc .etc_main dl:last-child{margin-right: 0; }
 section#etc .etc_main dl dt{position: relative; width: 270px; height: 270px; overflow: hidden;}
