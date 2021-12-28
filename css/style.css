@@ -121,7 +121,7 @@ section#portfolio .portfolio_main dl dt{width: 700px; height: 620px;}
 /* pf_03 */
 #wrap section#portfolio .portfolio_main dl:nth-child(3){position: relative; clear: both;}
 #wrap section#portfolio .portfolio_main dl:nth-child(3) dt{background: url("../images/pf/pf3.png")no-repeat 120px 120px; background-size: 85%; float: left;}
-#wrap section#portfolio .portfolio_main dl:nth-child(3) dd{position: absolute; top: 100px; right: 100px; width: 450px;}
+#wrap section#portfolio .portfolio_main dl:nth-child(3) dd{position: absolute; top: 150px; right: 100px; width: 450px;}
 #wrap section#portfolio .portfolio_main dl:nth-child(3) dd h4{font-size: 15px; margin-bottom: 10px;}
 #wrap section#portfolio .portfolio_main dl:nth-child(3) dd h5{font-size: 50px; margin-bottom: 10px; font-weight: 100;}
 #wrap section#portfolio .portfolio_main dl:nth-child(3) dd p{font-size: 15px; line-height: 1.7;}
@@ -166,8 +166,8 @@ section#portfolio .portfolio_main dl dt{width: 700px; height: 620px;}
 
 /* section etc - 기타디자인 */
 section#etc{width: 100%; min-width: 1400px; overflow: hidden; background: #f9f9f9; padding: 100px 0;}
-section#etc .etc_main{width: 1400px; min-width: 1400px;height: 400px; margin: 0 auto; overflow: hidden; padding-top: 60px;}
-section#etc .etc_main dl{width: 19.2%; margin-right: 1%; position: relative; cursor: pointer;}
+section#etc .etc_main{width: 1400px; min-width: 1400px;height: 400px; margin: 0 auto; overflow: hidden; padding-top: 60px; margin-left: 300px;}
+section#etc .etc_main dl{width: 24.2%; margin-right: 0%; position: relative; cursor: pointer;}
 section#etc .etc_main dl:last-child{margin-right: 0; }
 section#etc .etc_main dl dt{position: relative; width: 270px; height: 270px; overflow: hidden;}
 section#etc .etc_main dl dt p{width: 100%; height: 100%; transition: .5s;}
@@ -177,28 +177,30 @@ section#etc .etc_main dl:hover dt p:before{width: 100%; }
 section#etc .etc_main dl dt p strong{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 5px 10px; color: #f2b111; border: 2px solid #f2b111; border-radius: 50px; transition: .6s; z-index: 9999; opacity: 0;}
 section#etc .etc_main dl:hover dt p strong{opacity: 1; }
 
-section#etc .etc_main dl.etc_1 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/emo/thum.png') no-repeat center; background-size: cover; }
-section#etc .etc_main dl.etc_2 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/app/thum.png') no-repeat -40px 35px; background-size: 120%; }
-section#etc .etc_main dl.etc_3 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/ppt/ppt1.gif') no-repeat center; background-size: 100%; }
-section#etc .etc_main dl.etc_4 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/drawing/d1.jpg') no-repeat center; background-size: cover; }
-section#etc .etc_main dl.etc_5 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/brand/logo1.jpg') no-repeat -200px 0; background-size: 200%; }
+section#etc .etc_main dl.etc_1 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/animation/animation1.png') no-repeat center; background-size: cover; }
+section#etc .etc_main dl.etc_2 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/eventpage/epage1.jpg') no-repeat center; background-size: cover; }
+section#etc .etc_main dl.etc_3 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/emoticon/emoticon2.jpg') no-repeat center; background-size: cover; }
+section#etc .etc_main dl.etc_4 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/logo/logo4.png') no-repeat center; background-size: cover; }
+section#etc .etc_main dl.etc_1 dt{background: rgb(39, 39, 39);}
+section#etc .etc_main dl.etc_2 dt{background: rgb(39, 39, 39);}
 section#etc .etc_main dl.etc_3 dt{background: rgb(39, 39, 39);}
-section#etc .etc_main dl dd{padding: 20px 0; font-size: 14px; line-height: 1.7; text-align: right;}
+section#etc .etc_main dl.etc_4 dt{background: rgb(39, 39, 39);}
+section#etc .etc_main dl dd{padding: 20px 0; font-size: 14px; line-height: 1.7; padding-left: 30px;}
 section#etc .etc_main dl dd span{font-weight: normal;}
 
 
 /* 하단화살표 */
 .btn_top{position: fixed; right: 2%; bottom: 7%; width: 50px; height: 50px;cursor: pointer; display: none; z-index: 99;}
 
-#wrap footer{width: 100%; height: 100px; font-size: 25px; line-height: 100px; }
+#wrap footer{width: 100%; height: 100px; font-size: 25px; line-height: 100px; float: left; }
 #wrap footer .footer_main{width: 1400px; margin: 0 auto;}
-#wrap footer .footer_main ul.sns{width: 1400px; margin: 0 auto; overflow: hidden; margin-top: 20px;}
-#wrap footer .footer_main ul.sns li{margin-right: 20px;}
-#wrap footer .footer_main ul.sns li:last-child{margin-right: 0;}
-#wrap footer .footer_main ul.sns li a{color: #444; padding-left: 50px;}
-#wrap footer .footer_main ul.sns li a i{font-size: 25px;}
-#wrap footer .footer_main .copy{width: 100%; padding: 30px 0 41px 0;}
-#wrap footer .footer_main .copy p{font-size: 14px;}
+#wrap footer ul.sns{overflow: hidden; width: 400px; float: right;}
+#wrap footer ul.sns li{margin-right: 20px;}
+#wrap footer ul.sns li:last-child{margin-right: 0;}
+#wrap footer ul.sns li a{color: #444;}
+#wrap footer ul.sns li a i{font-size: 25px;}
+#wrap footer .copy{width: 800px;  text-align: center; float: right;}
+#wrap footer .copy p {font-size: 20px;}
 
 /* popup all */
 #wrap #popup{width: 100%; margin: 0 auto; }
@@ -209,28 +211,28 @@ section#etc .etc_main dl dd span{font-weight: normal;}
 
 /* popup1 */
 #popup1{position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
-    width: 800px; height: 538px; overflow: hidden; z-index: 999999; display: none;}
+    width: 800px; height: 600px; overflow: hidden; z-index: 999999; display: none;}
 #popup1 button{width: 100px; height: 100px; font-size: 70px; font-weight: 100; padding-bottom: 10px; outline: 0; border: 0;   background: #333; color: #fff; opacity: 0.3; cursor: pointer; font-family: 'RalewayT'; z-index: 999999;}
 #popup1 button.prev{position: absolute; top: 40%; left: 0;}
 #popup1 button.next{position: absolute; top: 40%; right: 0;}
 #popup1 ul.popList{width: 2400px; height: 738px;}
-#popup1 ul.popList li.popImg{width: 800px; height: 638px;}
+#popup1 ul.popList li.popImg{width: 800px; height: 600px;}
 /* popup2 */
-#popup2{position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 800px; height: 538px; overflow: hidden; z-index: 999999; display: none;}
+#popup2{position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 800px; height: 600px; overflow: hidden; z-index: 999999; display: none;}
 #popup2 button{width: 100px; height: 100px; font-size: 70px; font-weight: 100; padding-bottom: 10px; outline: 0; border: 0;   background: #333; color: #fff; opacity: 0.3; cursor: pointer; font-family: 'RalewayT'; z-index: 999999;}
 #popup2 button.prev{position: absolute; top: 40%; left: 0;}
 #popup2 button.next{position: absolute; top: 40%; right: 0;}
-#popup2 ul.popList{width: 2400px; height: 738px;}
-#popup2 ul.popList li.popImg{width: 800px; height: 638px;}
-#popup2 ul.popList li.popImg img{width: 1000px; margin-left: -100px; margin-top: -50px;}
+#popup2 ul.popList{width: 2400px; height: 600px;}
+#popup2 ul.popList li.popImg{width: 800px; height: 600px;}
+#popup2 ul.popList li.popImg img{width: 800px; }
 /* popup3 */
 #popup3{position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 800px; height: 538px; overflow: hidden; z-index: 999999; display: none;}
 #popup3 button{width: 100px; height: 100px; font-size: 70px; font-weight: 100; padding-bottom: 10px; outline: 0; border: 0;   background: #333; color: #fff; opacity: 0.3; cursor: pointer; font-family: 'RalewayT'; z-index: 999999;}
 #popup3 button.prev{position: absolute; top: 40%; left: 0;}
 #popup3 button.next{position: absolute; top: 40%; right: 0;}
-#popup3 ul.popList{width: 2400px; height: 738px;}
-#popup3 ul.popList li.popImg{width: 800px; height: 638px;}
-#popup3 ul.popList li.popImg video{width: 800px; margin-top: 45px;}
+#popup3 ul.popList{width: 2400px; height: 600px;}
+#popup3 ul.popList li.popImg{width: 800px; height: 600px;}
+#popup3 ul.popList li.popImg Img{width: 800px;}
 /* popup4 */
 #popup4{position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 800px; height: 538px; overflow: hidden; z-index: 999999; display: none;}
 #popup4 button{width: 100px; height: 100px; font-size: 70px; font-weight: 100; padding-bottom: 10px; outline: 0; border: 0;   background: #333; color: #fff; opacity: 0.3; cursor: pointer; font-family: 'RalewayT'; z-index: 999999;}
@@ -238,7 +240,6 @@ section#etc .etc_main dl dd span{font-weight: normal;}
 #popup4 button.next{position: absolute; top: 40%; right: 0;}
 #popup4 ul.popList{width: 2400px; height: 738px;}
 #popup4 ul.popList li.popImg{width: 800px; height: 638px;}
-#popup4 ul.popList li.d5 img{ margin-top: -60px;}
 /* popup5 */
 #popup5{position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 800px; height: 538px; overflow: hidden; z-index: 999999; display: none;}
 #popup5 button{width: 100px; height: 100px; font-size: 70px; font-weight: 100; padding-bottom: 10px; outline: 0; border: 0;   background: #333; color: #fff; opacity: 0.3; cursor: pointer; font-family: 'RalewayT'; z-index: 999999;}
